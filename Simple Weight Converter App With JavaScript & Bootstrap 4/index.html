@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.3/flatly/bootstrap.min.css">
+    <title>Wight Converter</title>
+    <style>
+        body
+        {
+            background:#333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-6">
+                <p class="lead text-center">Weight Converter</p>
+                <form id="inputWight">
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="Enter pounds" id="pound">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card bg-info mb-2">
+                        <div class="card-body">
+                            <p class="mt-4">Grams:</p>
+                            <div id="grams"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-success mb-2">
+                        <div class="card-body">
+                            <p class="mt-4">kilograms:</p>
+                            <div id="kilograms"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-danger mb-2">
+                        <div class="card-body">
+                            <p class="mt-4">Ounce:</p>
+                            <div id="ounce"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
